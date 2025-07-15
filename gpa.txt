@@ -1,0 +1,34 @@
+Requirements
+- Given a list of student grades, calculate GPA
+- The grading scale used should be 1-4
+- If any grade isn't a 1, 2, 3, or 4, print a message and stop the program
+
+Function Format:
+function functionName
+  pass in num1, num2, num3
+
+  return result
+endfunction
+
+Pseudocode:
+
+function calculateGPA
+  pass in studentGrades
+  set grades to studentGrades
+  set gradeTotal to 0
+  for each grade in grades
+    if grade is not a 1, 2, 3, or 4
+      print "invalid grade"
+      print grade
+      print "can't complete calculation"
+      stop
+    else add grade to gradeTotal
+    endif
+  endfor
+  set gpa to gradeTotal / numberOfGrades
+  return gpa
+endfunction
+
+set reggieGrades to 4, 4, 3, 4
+set reggieGPA to call calculateGPA with reggieGrades
+print reggieGPA

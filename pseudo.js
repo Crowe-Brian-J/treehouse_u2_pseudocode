@@ -27,4 +27,7 @@ elseif applicantGPA is 3 or more:
 endif
 store applicantName and applicantGPA in database
 
+meant for humans, not computers
+
+doesn't need to be how, just what to do
 */

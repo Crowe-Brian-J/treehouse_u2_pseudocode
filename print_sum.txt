@@ -1,0 +1,17 @@
+Requirements:
+- Get two integer values from a user and output the sum of those numbers.
+
+Pseudocode:
+
+prompt user for number
+if input is not a number
+  print "input is not a number"
+  prompt user for new number
+endif
+set num1 to userInput
+prompt for another number
+  print "input is not a number"
+  prompt user for new number
+endif
+set num2 to userInputset sum to num1 + num2
+print sum

@@ -1,0 +1,7 @@
+if input is not a number
+    print "this is not a number"
+else if input is odd
+    print "the number is odd"
+else 
+    "print the number is even"
+endif
